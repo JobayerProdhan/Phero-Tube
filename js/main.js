@@ -16,10 +16,9 @@ function displayCategories(categories){
 
    for(let categorie of categories){
        const button = document.createElement('button');
-       console.log(categorie);
+       
 
        button.innerText = categorie.category;
-       console.log(button);
        container.appendChild(button);
        button.classList = "btn btn-sm"
    }
